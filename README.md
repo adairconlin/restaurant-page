@@ -1,0 +1,1 @@
+This projects purpose is to continue practicing DOM manipulation by dynamically rendering a restaurant homepage. The goal with setting up this project is to use JavaScript alone to generate the contens on the website on page load. DOM elements should be created in JavaScript but styling can be done in CSS.
