@@ -8,7 +8,7 @@ const showMenu = () => {
             }
             //add content
             const para = document.createElement("p");
-            para.textContent = "test";
+            para.textContent = "test menu";
             para.id = "paragraph";
             para.style.color = "purple";
             content.appendChild(para);
