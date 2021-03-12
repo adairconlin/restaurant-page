@@ -11,7 +11,7 @@ const navFunction = () => {
     col1.className = "col-sm-5";
     col1.id = "btnDiv";
     title.textContent = "Lorem Ipsum";
-    title.id = "reload";
+    title.id = "reloadBtn";
     navDiv.appendChild(titleDiv);
     titleDiv.appendChild(col1);
     col1.appendChild(title);
@@ -52,6 +52,16 @@ const navFunction = () => {
         dropDiv.appendChild(item1);
         dropDiv.appendChild(item2);
     }
+    //reload home function
+    const reloadHome = document.getElementById("reloadBtn");
+    reloadHome.addEventListener("click", function() {
+        while(content.firstChild) {
+            content.removeChild(content.lastChild);
+        }
+        //add home content
+        headerFunction();
+        bodyFunction();
+    })
 }
 
 //adds content to the body
