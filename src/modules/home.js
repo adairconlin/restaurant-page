@@ -15,7 +15,6 @@ const navFunction = () => {
     navDiv.appendChild(titleDiv);
     titleDiv.appendChild(col1);
     col1.appendChild(title);
-
     //navbuttons
     const col2 = document.createElement("div");
     const tabs = document.createElement("div");
@@ -75,7 +74,6 @@ const headerFunction = () => {
     image.src = "img/horizontal.png";
     content.appendChild(headerDiv);
     headerDiv.appendChild(image);
-
     //text overlay
     const overlay = document.createElement("div");
     const title = document.createElement("p");
@@ -109,7 +107,7 @@ const bodyFunction = () => {
     content.appendChild(mainBody);
     mainBody.appendChild(col1);
     col1.appendChild(header);
-
+    //creates 3 paragraphs
     for(let i = 0; i < 3; i++) {
         const box = document.createElement("div");
         const para = document.createElement("p");
@@ -132,7 +130,6 @@ const bodyFunction = () => {
         box.appendChild(para);
     }
     col1.appendChild(menuBtn);
-
     //second column
     const col2 = document.createElement("div");
     const image = document.createElement("img");
